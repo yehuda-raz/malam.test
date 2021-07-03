@@ -1,0 +1,39 @@
+header#masthead {
+  position: absolute;
+  background: #f0f8ff00;
+  width: 100%;
+  nav#site-navigation {
+  }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+
+    .site-title a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+    }
+  }
+
+  .main-navigation ul#menu-main {
+    display: flex;
+    padding-right: 60px;
+
+    li {
+      padding-left: 50px;
+    }
+    a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main-navigation ul#menu-main {
+      display: none;
+    }
+  }
+}
