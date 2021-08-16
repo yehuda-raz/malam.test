@@ -77,10 +77,13 @@ $table_prefix = 'sis_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'WP_DEBUG_LOG', true );
+// define( 'WP_DEBUG', true );
+// define( 'WP_DEBUG_DISPLAY', false );
+// define( 'WP_DEBUG_LOG', true );
 // define( 'WP_DEBUG', false );
+
+define( 'WP_DEBUG', true );
+define( 'SAVEQUERIES', true );
 
 /* That's all, stop editing! Happy publishing. */
 
